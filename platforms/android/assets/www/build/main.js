@@ -106,17 +106,6 @@ var RestProvider = /** @class */ (function () {
         this.apiUrl = 'https://proxyu.maktebi.com/token';
         console.log('Hello RestProvider Provider');
     }
-    /*getUsers() {
-      return new Promise(resolve => {
-        this.http.get(this.apiUrl).subscribe(data => {
-          resolve(data);
-        }, err => {
-          console.log(err);
-        });
-      });
-    }*/
-    //ecp.submitter
-    //M$ktebi2018
     RestProvider.prototype.addUser = function (username, password) {
         var _this = this;
         return new Promise(function (resolve, reject) {

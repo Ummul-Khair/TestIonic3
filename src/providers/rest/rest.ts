@@ -12,18 +12,7 @@ export class RestProvider {
   apiUrl = 'https://proxyu.maktebi.com/token';
   constructor(public http: HttpClient) {
     console.log('Hello RestProvider Provider');
-  }
-  /*getUsers() {
-    return new Promise(resolve => {
-      this.http.get(this.apiUrl).subscribe(data => {
-        resolve(data);
-      }, err => {
-        console.log(err);
-      });
-    });
-  }*/
-  //ecp.submitter
-  //M$ktebi2018
+  } 
   addUser(username, password) {
     return new Promise((resolve, reject) => {
       
