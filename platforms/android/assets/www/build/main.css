@@ -25677,3 +25677,21 @@ ion-navbar.toolbar {
   min-height: calc(46px + constant(safe-area-inset-bottom));
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
+
+#login-input1 {
+  padding-bottom: 10%;
+}
+
+#login-form1 {
+  margin-top: 50%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+#buttonnn {
+  background-color: #FFB20D;
+  width: 100%;
+  color: black;
+  font-weight: 400;
+  font-size: 15px;
+}
