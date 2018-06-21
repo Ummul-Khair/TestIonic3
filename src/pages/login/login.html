@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Login
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page2">
+  <form id="login-form1">
+    <ion-list id="login-list2">
+      <ion-item id="login-input1">
+        <ion-label>
+          Username
+        </ion-label>
+        <ion-input [(ngModel)]="username" name = "username" type="text" placeholder=""></ion-input>
+      </ion-item>
+      <ion-item id="login-input2">
+        <ion-label>
+          Password
+        </ion-label>
+        <ion-input [(ngModel)]="password" name = "password" type="password" placeholder=""></ion-input>
+      </ion-item>
+    </ion-list>
+    <div class="spacer" style="height:40px;" id="login-spacer1"></div>
+    <button id="login-button6" ion-button color="dark" block large on-click="getUsers()">
+      Log in
+    </button>
+  </form>
+</ion-content>
